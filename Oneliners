@@ -1,0 +1,2 @@
+remove punctuation from input
+py -c "import sys, string;[sys.stdout.write(line.replace(c,'')) for c in string.punctuation for line in sys.stdin]"
